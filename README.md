@@ -1,5 +1,29 @@
 # Getting Started with Create React App
 
+# Login Demo - React
+
+A simple React application demonstrating login/logout functionality using `useState` hook with conditional rendering.
+
+## Features
+
+- Toggle between logged in and logged out states
+- Login as different users (Jacob, Robert, or default)
+- Clean and centered UI
+- Responsive design
+
+## Technologies Used
+
+- React.js
+- Functional Components
+- React Hooks (`useState`)
+
+## Code Structure
+
+```bash
+src/
+├── App.js          # Main component (login logic)
+└── index.js        # Entry point
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
