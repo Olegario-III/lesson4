@@ -24,3 +24,20 @@ A minimal React app demonstrating **conditional rendering** with login/logout fu
 npm start
 # or
 npm run dev
+
+## 🛠️ Tech Stack
+
+React (Functional Component + useState Hook)
+Inline CSS
+
+
+## 📁 Project Structure
+textsrc/
+├── App.js          # Main component with login logic
+└── index.js
+🎯 How It Works
+
+Uses useState to track login status (isLoggedIn) and the user's name
+Conditionally renders different UI based on the login state
+Clicking any login button sets isLoggedIn to true and updates the name
+Clicking Logout resets the state
