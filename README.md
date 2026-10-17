@@ -34,10 +34,16 @@ Inline CSS
 ## 📁 Project Structure
 textsrc/
 ├── App.js          # Main component with login logic
-└── index.js
-🎯 How It Works
+└──
+
+## 🎯 How It Works
 
 Uses useState to track login status (isLoggedIn) and the user's name
 Conditionally renders different UI based on the login state
 Clicking any login button sets isLoggedIn to true and updates the name
 Clicking Logout resets the state
+
+## 📝 Notes
+
+Default name is "annonymous" (note the spelling)
+Great for learning conditional rendering and basic state management in React
